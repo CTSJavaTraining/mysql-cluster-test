@@ -5,9 +5,9 @@ spring:
     rest:
       base-path: '/api'
   datasource:
-    username: root
-    password: root
-    url: 'jdbc:mysql://localhost:3306/employees?useSSL=false'
+    username: perftest
+    password: 123456
+    url: 'jdbc:mysql://nckmvdsla12431:4006/employees?useSSL=false'
     dbcp2:
       test-while-idle: true
       validation-query: SELECT 1
