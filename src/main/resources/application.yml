@@ -21,3 +21,20 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
       
+logging:
+  level:
+    ROOT: 'ERROR'
+    org.springframework.web: 'ERROR'
+    org.springframework.cloud: 'ERROR'
+    org.springframework.boot: 'ERROR'
+    org.springframework: 'ERROR'
+    org.hibernate.SQL: 'ERROR'
+    org.hibernate.type: 'ERROR'         
+    org.hibernate.tool.hbm2ddl: 'ERROR' 
+    org.hibernate.pretty: 'ERROR'       
+    org.hibernate.cache: 'ERROR'         
+    org.hibernate.transaction: 'ERROR'  
+    org.hibernate.jdbc: 'ERROR'          
+    org.hibernate.hql.ast.AST: 'ERROR'  
+    org.hibernate.secure: 'ERROR'        
+    org.hibernate: 'ERROR'   
